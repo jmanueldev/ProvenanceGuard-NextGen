@@ -23,7 +23,7 @@
 
 ## Problem
 
-Modern Android malware is increasingly:
+Modern Mobile malware is increasingly:
 
 - **Behavior-based** (not signature-based)
 - **Polymorphic** (changes structure frequently)
