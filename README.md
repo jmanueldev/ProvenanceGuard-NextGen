@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Problem](#-problem)
 - [Solution Overview](#-solution-overview)
@@ -21,7 +21,7 @@
 
 ---
 
-## ❗ Problem
+## Problem
 
 Modern Android malware is increasingly:
 
@@ -41,21 +41,21 @@ Modern Android malware is increasingly:
 
 ---
 
-## 💡 Solution Overview
+## Solution Overview
 
 ProvenanceGuard-NextGen detects malware by analyzing **how apps behave in real time**, not just what they look like.
 
 It introduces:
 
-- 📡 **Live network traffic monitoring (VPN-based)**
-- 🔗 **Provenance graph modeling of behavior**
-- ⚡ **Fast on-device ML classification**
-- 🤖 **Optional LLM reasoning for explanations**
-- 🌍 **Federated learning for privacy-preserving updates**
+- **Live network traffic monitoring (VPN-based)**
+- **Provenance graph modeling of behavior**
+- **Fast on-device ML classification**
+- **Optional LLM reasoning for explanations**
+- **Federated learning for privacy-preserving updates**
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ### Step-by-step Pipeline
 
@@ -83,7 +83,7 @@ It introduces:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 VPN Traffic
 ↓
 Packet Parser (IP/TCP/UDP)
@@ -102,7 +102,7 @@ Decision Output
 
 ---
 
-## 🔗 Provenance Graph Concept
+## Provenance Graph Concept
 
 A provenance graph represents **cause-effect relationships** between system events.
 
@@ -128,7 +128,7 @@ This allows detection of complex behaviors like:
 
 ---
 
-## 🧪 Feature Engineering
+## Feature Engineering
 
 Extracted features include:
 
@@ -140,7 +140,7 @@ Extracted features include:
 
 ---
 
-## ⚡ Machine Learning Layer
+## Machine Learning Layer
 
 - Model: Lightweight binary classifier
 - Format: TensorFlow Lite (TFLite)
@@ -155,7 +155,7 @@ Extracted features include:
 
 ---
 
-## 🤖 LLM Reasoning Layer (Optional)
+## LLM Reasoning Layer (Optional)
 
 - Model: Gemma (via MLC runtime)
 - Runs locally on-device
@@ -168,7 +168,7 @@ Extracted features include:
 
 ---
 
-## 🌍 Federated Learning
+## Federated Learning
 
 - Devices send **model updates only**
 - No raw data shared
@@ -177,41 +177,41 @@ Extracted features include:
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
-### 📱 Android
+### Android
 
 - Kotlin
 - Jetpack Compose
 - Android VPN Service API
 - TensorFlow Lite
 
-### 🧠 Core Engine
+### Core Engine
 
 - Kotlin (high-performance modules)
 - Custom TCP/UDP parsers
 - Graph processing engine
 
-### 🤖 ML / AI
+### ML / AI
 
 - TensorFlow / TFLite
 - Scikit-learn (training & evaluation)
 - MLC LLM runtime (Gemma)
 
-### 🌐 Backend
+### Backend
 
 - FastAPI (Python)
 - NumPy
 - Federated learning aggregation
 
-### 🧪 Evaluation
+### Evaluation
 
 - Scikit-learn metrics
 - Custom benchmarking scripts
 
 ---
 
-## 📊 Benchmarks
+## Benchmarks
 
 | Metric              | Target        | Achieved (Expected) |
 |--------------------|--------------|---------------------|
@@ -224,36 +224,36 @@ Extracted features include:
 
 ---
 
-## ✅ Benefits
+## Benefits
 
-### 🔒 Privacy-First
+### Privacy-First
 
 - No raw data leaves device
 - Fully offline detection possible
 
-### ⚡ Real-Time Detection
+### Real-Time Detection
 
 - Detects malware during execution
 - Not dependent on signature databases
 
-### 🧠 Behavior-Based
+### Behavior-Based
 
 - Resistant to obfuscation
 - Detects zero-day threats
 
-### 📱 Mobile Optimized
+### Mobile Optimized
 
 - Runs efficiently on-device
 - Scales across device tiers
 
-### 🤖 Explainable AI
+### Explainable AI
 
 - LLM provides reasoning for alerts
 - Improves user trust and analyst usability
 
 ---
 
-## 🛠️ Setup
+## Setup
 
 ### Android App
 
