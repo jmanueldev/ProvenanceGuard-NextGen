@@ -1,0 +1,5 @@
+{
+  "model": "gemma-2b-it-q4f32_1-MLC",
+  "temperature": 0.1,
+  "stream": true
+}
