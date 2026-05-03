@@ -63,7 +63,7 @@ It introduces:
 ## Architecture
 
 ![Architecture Diagram](https://media.licdn.com/dms/image/v2/D4E12AQE3eCjhQWZ8Ng/article-inline_image-shrink_1000_1488/B4EZ3vM.LNHMAQ-/0/1777834656320?e=1779321600&v=beta&t=82rdeosCrVnjKpx2pyQpB7fqPYIFhBsDeebvkkijwis)
-
+## Flow
 VPN Traffic  
 ↓  
 Packet Parser (IP/TCP/UDP)  
@@ -76,7 +76,7 @@ Feature Extraction
 ↓  
 ML Classifier (TFLite)  
 ↓  
-(Optional) LLM (Gemma via MLC)  
+LLM (Gemma via MLC)  
 ↓  
 Decision Output  
 
