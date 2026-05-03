@@ -13,7 +13,6 @@
 - [Tech Stack](#-tech-stack)
 - [Benchmarks](#-benchmarks)
 - [Benefits](#-benefits)
-- [Repository Structure](#-repository-structure)
 - [Setup](#-setup)
 - [Future Work](#-future-work)
 - [Disclaimer](#-disclaimer)
