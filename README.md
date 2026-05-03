@@ -1,6 +1,6 @@
 # 🛡️ ProvenanceGuard-NextGen
 
-**A real-time, on-device Android malware detection system powered by provenance graphs, lightweight machine learning, and optional on-device LLM reasoning.**
+**A real-time, on-device Android malware detection system powered by provenance graphs, lightweight machine learning, and on-device LLM reasoning.**
 
 ## Problem
 
@@ -29,7 +29,7 @@ It introduces:
 - **Live network traffic monitoring (VPN-based)**
 - **Provenance graph modeling of behavior**
 - **Fast on-device ML classification**
-- **Optional LLM reasoning for explanations**
+- **LLM reasoning for explanations**
 - **Federated learning for privacy-preserving updates**
 
 
@@ -53,7 +53,7 @@ It introduces:
 5. **ML Inference**
    - TFLite model predicts malicious probability
 
-6. **(Optional) LLM Reasoning**
+6. **LLM Reasoning**
    - Explains suspicious patterns
 
 7. **Decision Engine**
@@ -87,17 +87,15 @@ A provenance graph represents **cause-effect relationships** between system even
 
 ### Example:
 
-
-[Contacts Access]
+Contacts Access
 ↓
-[App]
+App
 ↓
-[Network Call]
+Network Call
 ↓
-[Unknown Domain]
+Unknown Domain
 ↓
-[SMS Sent]
-
+SMS Sent
 
 This allows detection of complex behaviors like:
 
