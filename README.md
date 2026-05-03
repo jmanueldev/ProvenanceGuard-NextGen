@@ -204,9 +204,6 @@ Extracted features include:
 - Improves user trust and analyst usability
 
 ## Setup
-
-### Android App
-
 ```bash
 cd android-app
 ./gradlew assembleDebug
