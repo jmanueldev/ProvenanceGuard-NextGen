@@ -86,15 +86,7 @@ Decision Output
 A provenance graph represents **cause-effect relationships** between system events.
 
 ### Example:
-Contacts Access 
-↓  
-App 
-↓  
-Network Call 
-↓  
-Unknown Domain 
-↓  
-SMS Sent 
+Contacts Access  →  App  →  Network Call  → Unknown Domain  → SMS Sent 
 
 This allows detection of complex behaviors like:
 
