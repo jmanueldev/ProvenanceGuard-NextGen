@@ -253,22 +253,6 @@ Extracted features include:
 
 ---
 
-## 📂 Repository Structure
-
-
-ProvenanceGuard-NextGen/
-
-├── android-app/
-├── core-engine/
-├── federated-server/
-├── ml-training/
-├── slm-runtime/
-├── benchmarks/
-└── README.md
-
-
----
-
 ## 🛠️ Setup
 
 ### Android App
