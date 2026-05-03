@@ -1,6 +1,6 @@
 package com.provenanceguard.vpn
 
-import com.provenanceguard.core.packet.IpParser
+import com.provenanceguard.core.packet.Ip_Parser
 import com.provenanceguard.core.graph.ProvenanceGraph
 
 object PacketProcessor {
