@@ -3,23 +3,6 @@
 **A real-time, on-device Android malware detection system powered by provenance graphs, lightweight machine learning, and optional on-device LLM reasoning.**
 
 ---
-
-## Table of Contents
-
-- [Problem](#-problem)
-- [Solution Overview](#-solution-overview)
-- [How It Works](#-how-it-works)
-- [Architecture](#-architecture)
-- [Tech Stack](#-tech-stack)
-- [Benchmarks](#-benchmarks)
-- [Benefits](#-benefits)
-- [Setup](#-setup)
-- [Future Work](#-future-work)
-- [Disclaimer](#-disclaimer)
-- [License](#-license)
-
----
-
 ## Problem
 
 Modern Mobile malware is increasingly:
