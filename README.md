@@ -22,7 +22,6 @@ Modern Mobile malware is increasingly:
 | Heavy ML models     | Not suitable for on-device inference |
 
 ---
-
 ## Solution Overview
 
 ProvenanceGuard-NextGen detects malware by analyzing **how apps behave in real time**, not just what they look like.
