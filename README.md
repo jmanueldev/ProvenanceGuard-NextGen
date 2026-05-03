@@ -2,7 +2,6 @@
 
 **A real-time, on-device Android malware detection system powered by provenance graphs, lightweight machine learning, and optional on-device LLM reasoning.**
 
----
 ## Problem
 
 Modern Mobile malware is increasingly:
@@ -21,7 +20,6 @@ Modern Mobile malware is increasingly:
 | Cloud-based detection | Raises privacy concerns |
 | Heavy ML models     | Not suitable for on-device inference |
 
----
 ## Solution Overview
 
 ProvenanceGuard-NextGen detects malware by analyzing **how apps behave in real time**, not just what they look like.
@@ -34,7 +32,6 @@ It introduces:
 - **Optional LLM reasoning for explanations**
 - **Federated learning for privacy-preserving updates**
 
----
 
 ## How It Works
 
@@ -62,7 +59,6 @@ It introduces:
 7. **Decision Engine**
    - Flags or blocks malicious behavior
 
----
 
 ## Architecture
 
@@ -84,7 +80,6 @@ ML Classifier (TFLite)
 ↓  
 Decision Output  
 
----
 
 ## Provenance Graph Concept
 
@@ -110,8 +105,6 @@ This allows detection of complex behaviors like:
 - Command-and-control communication
 - Privilege abuse chains
 
----
-
 ## Feature Engineering
 
 Extracted features include:
@@ -121,8 +114,6 @@ Extracted features include:
 - SMS triggered after network usage
 - Number of unique domains
 - Graph density (activity intensity)
-
----
 
 ## Machine Learning Layer
 
@@ -137,9 +128,7 @@ Extracted features include:
 - Drebin (Android malware dataset)
 - CICMalDroid (network-based malware dataset)
 
----
-
-## LLM Reasoning Layer (Optional)
+## LLM Reasoning Layer
 
 - Model: Gemma (via MLC runtime)
 - Runs locally on-device
@@ -150,16 +139,12 @@ Extracted features include:
 
 ⚠️ Only used when necessary (fallback layer)
 
----
-
 ## Federated Learning
 
 - Devices send **model updates only**
 - No raw data shared
 - Server aggregates updates
 - Differential privacy noise applied
-
----
 
 ## Tech Stack
 
@@ -193,8 +178,6 @@ Extracted features include:
 - Scikit-learn metrics
 - Custom benchmarking scripts
 
----
-
 ## Benchmarks
 
 | Metric              | Target        | Achieved (Expected) |
@@ -205,8 +188,6 @@ Extracted features include:
 | ML Latency          | < 200ms      | ~120–180ms          |
 | LLM Latency         | 1–3 seconds  | ~1.5–2.5s           |
 | Memory Usage        | Low          | Mobile-safe         |
-
----
 
 ## Benefits
 
@@ -234,8 +215,6 @@ Extracted features include:
 
 - LLM provides reasoning for alerts
 - Improves user trust and analyst usability
-
----
 
 ## Setup
 
