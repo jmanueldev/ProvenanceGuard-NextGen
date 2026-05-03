@@ -86,6 +86,21 @@ Decision Output
 A provenance graph represents **cause-effect relationships** between system events.
 
 ### Example:
+VPN Traffic  
+↓  
+Packet Parser (IP/TCP/UDP)  
+↓  
+TCP Reassembly  
+↓  
+Provenance Graph Engine  
+↓  
+Feature Extraction  
+↓  
+ML Classifier (TFLite)  
+↓  
+LLM (Gemma via MLC)  
+↓  
+Decision Output  
 Contacts Access
 ↓  
 App
