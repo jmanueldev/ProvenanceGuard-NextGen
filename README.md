@@ -218,9 +218,3 @@ python export_tflite.py
 Run Federated Server
 cd federated-server
 uvicorn main:app --reload
-📈 Future Work
-Graph Neural Networks (GNNs)
-On-device continual learning
-Adaptive threat modeling
-iOS support
-Threat intelligence integration
