@@ -134,8 +134,6 @@ Extracted features include:
   - Context-aware reasoning
   - Analyst-style insights
 
-⚠️ Only used when necessary (fallback layer)
-
 ## Federated Learning
 
 - Devices send **model updates only**
